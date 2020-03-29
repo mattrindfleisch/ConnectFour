@@ -30,6 +30,10 @@ public class ConnectFour
 			System.out.println("New Game? 0 for NO, 1 for YES");
 			playAgain = 0;
 			playAgain = input.nextInt();
+			if (playAgain == 1)
+			{
+				winner = false;
+			}
 		}
 	}
 	
